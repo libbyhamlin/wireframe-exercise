@@ -1,0 +1,65 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.hero-image {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  /* background: url(hero-image1.jpg) no-repeat center; */
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* overflow: hidden; */
+  text-align: center;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  font-size: 72px;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
+.container h1 span {
+  border: 10px solid white;
+  padding: 6px 14px;
+  display: inline-block;
+  font-family: "Inconsolata", monospace;
+  font-size: em;
+}
+
+.hero-sm-text {
+  margin: 20px;
+  display: block;
+  /* font-size: 26px; */
+  text-shadow: 0 0 10px white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.btn-cta {
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  background: black;
+  border-radius: 8px;
+  transform: 0.3s all;
+}
+
+.btn {
+  opacity: 0.8;
+}
+/* body content font */
+font-family: "Nanum Gothic", sans-serif;
