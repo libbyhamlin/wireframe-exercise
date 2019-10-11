@@ -6,24 +6,23 @@ html {
   background: #f1f1f1;
 }
 
-.nav-main {
-    padding-top: 0px;
-    padding-right: 12px;
-    padding-bottom: 0px;
-    padding-left: 12px;
+.main-ul {
+  padding-top: 0px;
+  padding-right: 12px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  float: right;
 }
 
 .nav-main > li {
-    text-align: left;
+  text-align: left;
+  position: absolute;
 }
 .nav-ul {
-    padding-top: 0px;
-    padding-right: 12px;
-    padding-bottom: 0px;
-    padding-left: 12px;
-}
-
-
+  padding-top: 0px;
+  padding-right: 12px;
+  padding-bottom: 0px;
+  padding-left: 12px;
 }
 
 .hero-image {
@@ -81,5 +80,27 @@ html {
 .btn {
   opacity: 0.8;
 }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+ display: flex;
+ justify-content: space-between;
+ 
+  /* grid-template-rows: repeat(auto-fit, mimax(240px, 1fr)); */
+  /* justify-content: center;
+  grid-auto-rows: 100px;
+  grid-gap: 20px; */
+}
+
+.grid-pbox {
+  width: 100%;
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
 /* body content font */
-font-family: "Nanum Gothic", sans-serif;
+/* font-family: "Nanum Gothic", sans-serif; */
